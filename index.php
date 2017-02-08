@@ -7,7 +7,6 @@
 			    background-image: url("images/back.jpg");
 			    background-size: cover;
 			    font-family: 'Quicksand', sans-serif, bold;
-			    
 			    font-size: 40px;
 			    color: white;
 			    text-align: center;
@@ -38,6 +37,7 @@
         echo '<div><img src="images/ark.jpg" height="400" width="711"/></div>';
         break;
     default:
+    	echo "<style>body{ background-image: url('images/rick.gif'); background-size: cover;}</style>";
     	echo "Error 404<br> Banane Not Found";
         echo '<div><img src="images/ban.png"/></div>';
 }
