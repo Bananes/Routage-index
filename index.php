@@ -18,23 +18,28 @@
 		<p>
 		<?php
 			$patate = gethostname();
-			echo $patate;
+			
 			
 			switch ($patate) {
     case "PC-O":
+    	echo "Insmouth";
         echo '<div><img src="images/ins.jpg"/></div>';
         break;
     case "PC-2":
+    	echo "Cthulhu";
         echo '<div><img src="images/ctu.jpg" height="400" width="560"/></div>';
         break;
     case "PC-3":
+    	echo "Lovecraft";
     	echo '<div><img src="images/love.jpg"/></div>';
         break;
     case "PC-5":
+    	echo "Arkham";
         echo '<div><img src="images/ark.jpg" height="400" width="711"/></div>';
         break;
     default:
-        echo '<div><img src="images/ban.jpg"/></div>';
+    	echo "Error 404<br> Banane Not Found";
+        echo '<div><img src="images/ban.png"/></div>';
 }
 		?> 
 		</p>
